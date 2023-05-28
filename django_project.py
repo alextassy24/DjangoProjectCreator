@@ -111,7 +111,7 @@ def create_project():
 window = tk.Tk()
 window.title("Django Project Creator")
 window.geometry("500x500")
-window.iconbitmap("G:\ME\Programare\Python\django_project\django.ico")
+window.iconbitmap("django.ico")
 window.eval('tk::PlaceWindow . center')
 
 label_project = tk.Label(window, text="Project Name:")
